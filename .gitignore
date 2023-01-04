@@ -1,2 +1,6 @@
-## API keys
+## spotify api keys
+
 00_spotify_api_keys.R
+
+## logs
+*.log
