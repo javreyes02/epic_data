@@ -12,7 +12,8 @@ today_date = Sys.Date()
 
 access_token <- get_spotify_access_token()
 
-total_followers_jh <- tibble(total_followers = get_artist(id = '2kdmTOXncgNHSuYVMhdd5I')$followers$total)
+total_followers_jh <- tibble(total_followers = get_artist(id = '2kdmTOXncgNHSuYVMhdd5I')$followers$total,
+                             date = today_date)
 
 troy_saga <- get_album_tracks(id = '2j94jmFiOvCwS8Oj6br91A')
 
